@@ -1,0 +1,12 @@
+[submodule "HIT-Alibaba-interview"]
+	path = HIT-Alibaba-interview
+	url = https://github.com/HIT-Alibaba/interview
+[submodule "ChenYilong-iOSInterviewQuestions"]
+	path = ChenYilong-iOSInterviewQuestions
+	url = https://github.com/ChenYilong/iOSInterviewQuestions.git
+[submodule "iOS-Developer-Interview-Questions"]
+	path = iOS-Developer-Interview-Questions
+	url = https://github.com/lzyy/iOS-Developer-Interview-Questions.git
+[submodule "iOS-Developer-and-Designer-Interview-Questions"]
+	path = iOS-Developer-and-Designer-Interview-Questions
+	url = https://github.com/CameronBanga/iOS-Developer-and-Designer-Interview-Questions.git
