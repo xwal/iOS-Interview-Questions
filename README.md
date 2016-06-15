@@ -1,5 +1,15 @@
 #iOS-Interview-Questions
 
+## 使用指南
+
+使用以下命令更新仓库数据：
+
+```shell
+$ git clone https://git.coding.net/chaosky/iOS-Interview-Questions.git
+$ git submodule init
+$ git submodule update
+```
+
 ## iOS 面试问题列表
 
 * [12 Essential iOS Interview Questions from top 3% developers company](http://www.toptal.com/ios/interview-questions)
