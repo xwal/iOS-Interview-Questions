@@ -1,5 +1,15 @@
 #iOS-Interview-Questions
 
+## 使用指南
+
+使用以下命令更新仓库数据：
+
+```shell
+$ git clone https://git.coding.net/chaosky/iOS-Interview-Questions.git
+$ git submodule init
+$ git submodule update
+```
+
 ## iOS 面试问题列表
 
 * [12 Essential iOS Interview Questions from top 3% developers company](http://www.toptal.com/ios/interview-questions)
@@ -115,7 +125,7 @@
     - b.常用设计模式:单例,系统自带常用单例包括?
     - c.多线程 & 运行时UI操作在哪个线程执行?该线程是并行 还是串行?dispatch,  NSOperationQueue;网络请求:导航控制器X 推出视图控制器A,A 新建了一个线程,请求图片,最后显示;但是此时如果视图控制器A 在图片请求完成前,被Pop掉,怎么去检测A 是否存在?怎么解决?(这儿有一个陷阱,问题应该是怎么解决A所开辟的线程,而不是去怎么检测A 是否存在);
     - d.SDK & 第三方地图SDK,讯飞语音,即时通讯,推送,分享AFNetWorking:怎么实现的?SDWebImage:用到了什么技术?怎么实现的?
-    - e.其他响应式编程,了解吗?swift 了解吗? i0S 8 和 iOS 9 更新了什么东西? 
+    - e.其他响应式编程,了解吗?swift 了解吗? i0S 8 和 iOS 9 更新了什么东西?
     - f.你目前遇到最大的开发难题是什么?说来听听(最恶心)  给你看看我们现在的项目,你看你要做多久能做出来?
 - 二.表达:
   - 1.你开发的应用怎么开发的,用到了什么,怎么实现的,自己上架的吗?自己运营,还是?
@@ -150,4 +160,3 @@
 - lldb（gdb）常用的调试命令
 - label的可显示区域
 - 热更新有几种实现方法，你最常用哪种
-
