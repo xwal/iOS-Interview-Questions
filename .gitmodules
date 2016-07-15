@@ -10,3 +10,12 @@
 [submodule "iOS-Developer-and-Designer-Interview-Questions"]
 	path = iOS-Developer-and-Designer-Interview-Questions
 	url = https://github.com/CameronBanga/iOS-Developer-and-Designer-Interview-Questions.git
+[submodule "LeetCode_Swift"]
+	path = LeetCode_Swift
+	url = https://github.com/soapyigu/LeetCode_Swift.git
+[submodule "LeetCode_Swift3"]
+	path = LeetCode_Swift3
+	url = https://github.com/diwu/LeetCode-Solutions-in-Swift.git
+[submodule "LeetCode_CPlusPlus"]
+	path = LeetCode_CPlusPlus
+	url = https://github.com/haoel/leetcode.git
