@@ -23,7 +23,7 @@ $ git submodule update
 * [给新人的iOS面试资料（2016年3月6日更新）](http://www.jianshu.com/p/866c78b2130d)
 * [iOS:BAT面试题](http://www.jianshu.com/p/682de90106b5)
 * [强力iOS面试题](http://www.jianshu.com/p/2e7ae4457083)
-* [http://www.jianshu.com/p/fd5d193f3d36](http://www.jianshu.com/p/fd5d193f3d36)
+* [4道过滤菜鸟的iOS面试题](http://www.jianshu.com/p/fd5d193f3d36)
 
 ## iOS面试题整理
 
