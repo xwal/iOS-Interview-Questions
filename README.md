@@ -5,7 +5,7 @@
 使用以下命令更新仓库数据：
 
 ```shell
-$ git clone https://git.coding.net/chaosky/iOS-Interview-Questions.git
+$ git clone --depth=1 https://git.coding.net/chaosky/iOS-Interview-Questions.git
 $ git submodule init
 $ git submodule update
 ```
@@ -19,6 +19,11 @@ $ git submodule update
 * [Interview Questions for iOS and Mac Developers from the CEO of Black Pixel](https://blackpixel.com/writing/2013/04/interview-questions-for-ios-and-mac-developers-1.html)
 * [iOS Interview Questions and Answers including such topics as Development Basics, App states and multitasking, App states, Core app objects](http://www.geekinterview.com/Interview-Questions/iOS)
 * [关于一些 iOS 面试问题的解答](http://draveness.me/guan-yu-xie-ios-wen-ti-de-jie-da/)
+* [iOS面试题大全-点亮你iOS技能树](http://www.jianshu.com/p/a3b61b2f6e66)
+* [给新人的iOS面试资料（2016年3月6日更新）](http://www.jianshu.com/p/866c78b2130d)
+* [iOS:BAT面试题](http://www.jianshu.com/p/682de90106b5)
+* [强力iOS面试题](http://www.jianshu.com/p/2e7ae4457083)
+* [http://www.jianshu.com/p/fd5d193f3d36](http://www.jianshu.com/p/fd5d193f3d36)
 
 ## iOS面试题整理
 
@@ -160,3 +165,5 @@ $ git submodule update
 - lldb（gdb）常用的调试命令
 - label的可显示区域
 - 热更新有几种实现方法，你最常用哪种
+
+
