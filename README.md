@@ -25,6 +25,10 @@ $ git submodule update
 * [强力iOS面试题](http://www.jianshu.com/p/2e7ae4457083)
 * [4道过滤菜鸟的iOS面试题](http://www.jianshu.com/p/fd5d193f3d36)
 * [Swift面试题](http://www.cocoachina.com/swift/20150918/13499.html)
+* [道长的 Swift 面试题](http://www.jianshu.com/p/07c9c6464f83)
+* [剑指 Offer 学习心得](http://wiki.jikexueyuan.com/project/for-offer/)
+* [How to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
+* [编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July)
 
 ## iOS面试题整理
 
