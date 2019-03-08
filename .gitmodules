@@ -14,7 +14,7 @@
 	path = LeetCode_Swift
 	url = https://github.com/soapyigu/LeetCode_Swift.git
 [submodule "LeetCode_Swift3"]
-	path = LeetCode_Swift3
+	path = LeetCode-Solutions-in-Swift
 	url = https://github.com/diwu/LeetCode-Solutions-in-Swift.git
 [submodule "LeetCode_CPlusPlus"]
 	path = LeetCode_CPlusPlus

@@ -1,11 +1,11 @@
-#iOS-Interview-Questions
+# iOS-Interview-Questions
 
 ## 使用指南
 
 使用以下命令更新仓库数据：
 
 ```shell
-$ git clone --depth=1 https://git.coding.net/chaosky/iOS-Interview-Questions.git
+$ git clone --depth=1 https://github.com/chaoskyme/iOS-Interview-Questions.git
 $ git submodule init
 $ git submodule update
 ```
@@ -29,6 +29,7 @@ $ git submodule update
 * [剑指 Offer 学习心得](http://wiki.jikexueyuan.com/project/for-offer/)
 * [How to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
 * [编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July)
+* [Swift 烧脑体操 - 唐巧博客](http://blog.devtang.com/2016/02/27/swift-gym-1-nested-optional/)
 
 ## iOS面试题整理
 
