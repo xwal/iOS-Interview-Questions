@@ -2,12 +2,8 @@
 
 ## 使用指南
 
-使用以下命令更新仓库数据：
-
 ```shell
-$ git clone --depth=1 https://github.com/chaoskyme/iOS-Interview-Questions.git
-$ git submodule init
-$ git submodule update
+$ git clone --recursive --depth=1 https://github.com/chaoskyme/iOS-Interview-Questions.git
 ```
 
 ## iOS 面试问题列表
