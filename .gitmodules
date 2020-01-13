@@ -25,3 +25,18 @@
 [submodule "The-Art-Of-Programming-By-July"]
 	path = The-Art-Of-Programming-By-July
 	url = https://github.com/julycoding/The-Art-Of-Programming-By-July.git
+[submodule "iOS-Source-Probe"]
+	path = iOS-Source-Probe
+	url = https://github.com/Desgard/iOS-Source-Probe.git
+[submodule "iOS-Source-Code-Analyze"]
+	path = iOS-Source-Code-Analyze
+	url = https://github.com/draveness/analyze.git
+[submodule "ParseSourceCodeStudy"]
+	path = ParseSourceCodeStudy
+	url = https://github.com/ChenYilong/ParseSourceCodeStudy.git
+[submodule "swift-algorithm-club"]
+	path = swift-algorithm-club
+	url = https://github.com/raywenderlich/swift-algorithm-club.git
+[submodule "RuntimePDF"]
+	path = RuntimePDF
+	url = https://github.com/DeveloperErenLiu/RuntimePDF.git
