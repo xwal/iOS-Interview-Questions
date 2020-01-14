@@ -40,3 +40,12 @@
 [submodule "RuntimePDF"]
 	path = RuntimePDF
 	url = https://github.com/DeveloperErenLiu/RuntimePDF.git
+[submodule "RuntimeAnalyze"]
+	path = RuntimeAnalyze
+	url = https://github.com/DeveloperErenLiu/RuntimeAnalyze.git
+[submodule "objc-runtime"]
+	path = objc-runtime
+	url = https://github.com/RetVal/objc-runtime.git
+[submodule "CS-Notes"]
+	path = CS-Notes
+	url = https://github.com/CyC2018/CS-Notes.git
