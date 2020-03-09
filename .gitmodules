@@ -49,3 +49,6 @@
 [submodule "CS-Notes"]
 	path = CS-Notes
 	url = https://github.com/CyC2018/CS-Notes.git
+[submodule "CrackingTheCodingInterview"]
+	path = CrackingTheCodingInterview
+	url = https://github.com/careercup/CtCI-6th-Edition.git
