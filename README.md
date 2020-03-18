@@ -9,163 +9,175 @@ $ git clone --recursive --depth=1 https://github.com/chaoskyme/iOS-Interview-Que
 ## iOS 面试问题列表
 
 * [12 Essential iOS Interview Questions from top 3% developers company](http://www.toptal.com/ios/interview-questions)
-* [20 iOS Developer Interview Questions and Answers for getting you ready for your interview](https://www.codementor.io/ios/tutorial/ios-interview-tips-questions-answers-objective-c)
-* [A small guide to help those looking to hire a developer or designer for iOS work While tailored for iOS, many questions could be used for Android developers or designers as well A great self-test if you're looking to keep current or practice for your own interview](https://github.com/CameronBanga/iOS-Developer-and-Designer-Interview-Questions)
 * [All you need to know about iOS technical interview including some tips for preparing, questions and some coding exercises](http://www.raywenderlich.com/53962/ios-interview-questions)
-* [Interview Questions for iOS and Mac Developers from the CEO of Black Pixel](https://blackpixel.com/writing/2013/04/interview-questions-for-ios-and-mac-developers-1.html)
-* [iOS Interview Questions and Answers including such topics as Development Basics, App states and multitasking, App states, Core app objects](http://www.geekinterview.com/Interview-Questions/iOS)
-* [关于一些 iOS 面试问题的解答](http://draveness.me/guan-yu-xie-ios-wen-ti-de-jie-da/)
-* [iOS面试题大全-点亮你iOS技能树](http://www.jianshu.com/p/a3b61b2f6e66)
-* [给新人的iOS面试资料（2016年3月6日更新）](http://www.jianshu.com/p/866c78b2130d)
-* [iOS:BAT面试题](http://www.jianshu.com/p/682de90106b5)
+* [Swift Interview Questions And Answers](https://www.raywenderlich.com/762435-swift-interview-questions-and-answers)
 * [强力iOS面试题](http://www.jianshu.com/p/2e7ae4457083)
-* [4道过滤菜鸟的iOS面试题](http://www.jianshu.com/p/fd5d193f3d36)
-* [Swift面试题](http://www.cocoachina.com/swift/20150918/13499.html)
 * [道长的 Swift 面试题](http://www.jianshu.com/p/07c9c6464f83)
-* [剑指 Offer 学习心得](http://wiki.jikexueyuan.com/project/for-offer/)
-* [How to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
-* [编程之法：面试和算法心得](https://github.com/julycoding/The-Art-Of-Programming-By-July)
 * [Swift 烧脑体操 - 唐巧博客](http://blog.devtang.com/2016/02/27/swift-gym-1-nested-optional/)
 
-## iOS面试题整理
+## iOS 笔试题库
 
-最近整理
-- AFNetworking的原理与NSURLSession的区别
-- Block的种类，__block有什么作用
-- 单例的种类
-- SDWebImage的原理
-- HTTP协议上传
-- 运行时的作用和工作原理
-- 支付集成
-- MJRefresh原理
+### 知识类
 
-常见题目
-- 类别和继承的区别，什么时候不用类别
-- 如何实现MRC和ARC混编
-- 对MVC和MVVM的理解
-- 深拷贝和浅拷贝的实现
-- 网络请求同步和异步的理解
-- GCD底层的三种队列和用法
-- CALayer和UIView的关系
-- 什么是懒加载
-- 如何查找内存泄露
-- 简述沙盒机制
-- UITableView优化手段
-- 属性修饰符strong、weak、assign和copy的区别
-- UIView的frame和bounds有什么不同
-- 类与类之间传值有哪些方式
-- 如何获取键盘的高度
-- 委托、通知、KVO分别在什么场景下使用
-- @synthesize和@dynamic有什么区别
-- 数据持久化方法
-- 什么是keyPath
-- 谈谈对RunLoop的理解
-- CoreGraphics和CoreAnimation有什么联系
-- 谈谈对响应者链的理解
-- 用变量a给出下面的定义：一个整型变量、一个指向整型变量的指针、一个指向指向一个整型变量指针的指针、一个有10个整数的数组、一个指向有10个整数的数组的指针、一个指向有一个整数参数且返回一个整数的函数的指针
-- 如何进行内存泄露的追踪
-- 线程和进程的区别和联系
-- 视图控制器的生命周期
-- block是如何捕获外部变量的，为什么使用__block修饰的外部变量可以在block中被修改
-- 更新约束需要调用什么方法
-- 通知UIView刷新要调用什么方法
-- 如何获得一个UIView所属的UIViewController
-- Objective-C中KVO是如何实现的
-- 如何让自己定义类的对象作为属性时可以用copy修饰符
-- Interface Builder中的“User Defined Runtime Attributes”如何使用
-- 什么情况下报“unrecognized selector”错误
-- 怎样实现多个异步任务完成后统一回调一个结束方法
-- 一个对象的isa指针指向什么，有什么作用
-- NSRunLoop和线程有什么关系
-- 如何高性能的给UIImageView添加圆角
-- 如何对iOS设备进行性能测试
-- 说一下App上架流程
-- 简述应用程序的生命周期
-- git的fetch、push和pull分别有什么用
-- 是否使用过CoreAnimation、CoreText和CoreImage
-- iOS系统架构的四个层次
-- NSNotification是同步还是异步的
+#### 基础知识
 
+1. keyWindow和window的区别
 
-代码题
+2. assign copy retain区别
 
-- 写一个单例模式的例子
-- 写一个代理模式的例子
-- 定义一个枚举有几种方式
-- 用代码移除视图view上所有的UIButton
-- 现有一函数rand100()可以生成0-99的随机数，在这个函数的基础上设计一个可以产生0-9999随机数的函数rand10000()
-- 有一个整数数列，你可以交换其中任意两个数来得到一个新数列，求一共可以得到多少种可能的结果。int getTotal(int arr[N])
-- Tom要在家里举行宴会，他虽然有很多根筷子但是筷子的长度并不完全相同，现在已知每根筷子的长度，要求每位客人都能拿到相同长度的筷子，求最多可以邀请多少客人。int getMax(int arr[N])
-- 统计一个较长字符串(由小写字母构成)中每个字符出现的次数，并打印出出现最多的5个字母和出现的次数。
+3. HTTP的数据传输
 
-## 张莹老师面试题整理
+4. 动态绑定
 
-- 简历上写的所有技术（所以不会的不要给我乱写啊，简历没整好，你就被问死了）
-- 简历上公司的项目相关
-  - 1、即时通讯   不局限于xmpp，以及环信，还有其他的，比如nodjsc聊天
-  - 2、项目实现了哪些功能，哪些是你负责的，怎么完成的
-- 其他技术
-  - 1、多线程
-  - 2、内存管理
-  - 3、手势滑动的消息传递机制
-  - 4、collectionView怎样实现所有图片围城圆圈
-  - 5、第三方库和第三方库底层的东西。
-  - 6、用过即使通讯没，登陆注册，还有评论，分享没有？
-  - 7、Category和添加子类的区别，啥时候不能用Category？
-  - 8、数组排序，几种方法？你会用哪几种？
-  - 9、企业里面记录代码错误的日志的那个叫什么?
-  - 10、数据结构和算法
-  - 11、曲线
-  - 12、版本管理
-  - 13、svn以及git
-  - 14、上架
-  - 15、json解析为空的时候怎么解决
-  - 16、极光推送，线程优缺点，内存机制，yymodel原理。强弱引用，自定义。block得用法，哪里用。
-  - uiview里block为啥不完成循环
-- 一.技术:
-  - 1.Xcode 编程工具的使用:
-    - a.如何搜索函数?
-    - b.了解其他iOS 开发工具吗?
-    - c.Xcode 自带的工具:Instruments,ApplicationLoader
-  - 2.代码姿势:
-    - a.关键字:static,extern;@property :copy,strong,retain,assign(重要,每次必问)
-    - b.常用设计模式:单例,系统自带常用单例包括?
-    - c.多线程 & 运行时UI操作在哪个线程执行?该线程是并行 还是串行?dispatch,  NSOperationQueue;网络请求:导航控制器X 推出视图控制器A,A 新建了一个线程,请求图片,最后显示;但是此时如果视图控制器A 在图片请求完成前,被Pop掉,怎么去检测A 是否存在?怎么解决?(这儿有一个陷阱,问题应该是怎么解决A所开辟的线程,而不是去怎么检测A 是否存在);
-    - d.SDK & 第三方地图SDK,讯飞语音,即时通讯,推送,分享AFNetWorking:怎么实现的?SDWebImage:用到了什么技术?怎么实现的?
-    - e.其他响应式编程,了解吗?swift 了解吗? i0S 8 和 iOS 9 更新了什么东西?
-    - f.你目前遇到最大的开发难题是什么?说来听听(最恶心)  给你看看我们现在的项目,你看你要做多久能做出来?
-- 二.表达:
-  - 1.你开发的应用怎么开发的,用到了什么,怎么实现的,自己上架的吗?自己运营,还是?
-  - 2.你认为开发APP,需要注意什么?
-  - 3.你上一家公司干什么的,主要负责什么模块
-  - 4.你期待在5年内达到怎样成绩,职业规划?
-  - 5.如果让你管理两个团队,一个弱,一个强,你怎么管理?(思路很重要)
+5. subclass category protocol extension 区别
 
-还有MRC和ARC的区别各种花样
+6. 单例的实现
 
-正现在问区别，问日志这些有很多
+7. performSelector:withObject:方法的作用是什么？
 
-## 高级面试题
+8. 解释一下多态
 
-- 微信如何搜索附近人
-- 模糊搜索和精确搜索
-- 即时通讯的UI布局，要是你会用多少个cell
-- 有没有直播经验
-- 最近的ipv6上架的问题，以及了解ipv6是什么
-- 消息传递机制了解吗，你用它做过什么？
-- iOS 如何优化
-- instruments用过哪些工具，如何测试核心动画性能
-- 沙盒机制
-- ffmpeg，opengl了解吗
-- 如何收集App异常信息（比如：崩溃、闪退等）
-- 离屏渲染了解么，了解的话说一下你一般从哪几方面操作的
-- 了解GCD的信号量机制么？能谈谈你对它的理解么？
-- 聊一下RAC（ReactiveCocoa）和MVVM，你对它的看法
-- block底层实现
-- 响应链的理解
-- KVC和KVO
-- lldb（gdb）常用的调试命令
-- label的可显示区域
-- 热更新有几种实现方法，你最常用哪种
+9. 如何实现深拷贝
 
+10. http和socket通信的区别，tcp和udp的区别，session和cookie的区别
 
+11. block实现原理
+
+12. 响应链
+
+13. frame 和 bounds
+
+14. 写一个宏MIN，这个宏输入两个参数并返回较小的一个
+
+    `#define MIN(a,b) ((a)>(b)?(b):(a))`
+
+15. 什么是KeyPath
+
+16. `#import、#include、@class`的区别？
+
+17. UIView和CALayer的区别和联系
+
+18. 输出内容
+
+    ```
+    main()
+    {
+    	int a[5] = {1, 2, 3, 4, 5};
+    	int *ptr=(int *)(&a+1);
+    	printf("%d %d", *(a+1), *(ptr-1));
+    }
+    ```
+
+19. 关键字 const的含义
+
+    ```
+    const int a;
+    int const a;
+    const int *a;
+    int * const a;
+    int const * a const;
+    ```
+
+20. 关键字 volatile的含义
+
+21. static 关键字的作用
+
+22. extern "C"的作用
+
+23. KVO的实现原理
+
+24. Block的种类，__block有什么作用
+
+25. UITableView优化
+
+26. @synthesize和@dynamic有什么区别
+
+27. CoreGraphics和CoreAnimation有什么联系
+
+28. 线程、进程、RunLoop的区别和联系
+
+29. 如何高性能的给UIImageView添加圆角
+
+30. 手势滑动的消息传递机制
+
+#### 进阶知识
+
+1. drawRect 一定会影响性能吗？UI Dynamic与UIKit Animation的最本质区别是什么？
+2. 如何用 UIImageView 显示超大分辨率的图？如果要支持缩放呢？
+3. 了解 fishhook吗？说说为什么fishhook不能修改非动态链接库中的符号？
+4. C++调用虚方法与Objective-C 发消息有什么区别？
+5. 了解placement new吗？Objective-C 中如何实现这个功能？
+6. 如何在 ARC环境下用 C++ 标准库容器来管理 Objective-C 对象？
+7. id、self、super 它们从语法上有什么区别？
+8. isa是什么？是指向Class对象本身的指针吗？
+9. block修改捕获变量除了用 __block 还可以怎么做？有哪些局限性？
+10. NSDictionary与NSHashTable有什么区别，它们的使用场景是怎样的？
+11. 如何评价 Swift 中 String index的设计？
+12. 假设一个与服务器的TCP连接，忽然断网，服务器能在短时间内知会离线吗？
+13. 为什么 Wireshark 不能直接抓取 SSL的原始数据？
+14. backtrace 是在用户态实现的吗？能否讲讲实现它的大致思路？
+15. malloc 的指针 double free 产生的异常与访问 freed 指针有可能产生的异常有什么区别？为什么访问freed指针不一定产生异常？
+16. RunLoop是一个不停歇在运行的死循环吗？为什么？
+17. 看过runtime的源码吗？源码中常有的fastpath、slowpath是什么？
+18. runtime中SideTables（不是SideTable）存在的意义是什么？
+19. Objective-C是如何保证系统升级后的ABI稳定性的？
+
+#### MrPeak
+
+##### 中级
+
+1. 什么是arc？（arc是为了解决什么问题诞生的？）
+2. 请解释以下keywords的区别： `assign vs weak`, `__block vs __weak`
+3. `__block`在arc和非arc下含义一样吗？
+4. 使用atomic一定是线程安全的吗？
+5. 描述一个你遇到过的retain cycle例子。(别撒谎，你肯定遇到过)
+6. +(void)load; +(void)initialize；有什么用处？
+7. 为什么其他语言里叫函数调用， objective c里则是给对象发消息（或者谈下对runtime的理解）
+8. 什么是method swizzling?
+9. UIView和CALayer是啥关系？
+10. 如何高性能的给UIImageView加个圆角？（不准说layer.cornerRadius!）
+11. 使用drawRect有什么影响？（这个可深可浅，你至少得用过。。）
+12. SDWebImage里面给UIImageView加载图片的逻辑是什么样的？（把UIImageView放到UITableViewCell里面问更赞）
+13. 麻烦你设计个简单的图片内存缓存器（移除策略是一定要说的）
+14. 讲讲你用Instrument优化动画性能的经历吧（别问我什么是Instrument）
+15. loadView是干嘛用的？
+16. viewWillLayoutSubView你总是知道的。。
+17. GCD里面有哪几种Queue？你自己建立过串行queue吗？背后的线程模型是什么样的？
+18. 用过coredata或者sqlite吗？读写是分线程的吗？遇到过死锁没？咋解决的？
+19. http的post和get啥区别？（区别挺多的，麻烦多说点）
+20. 我知道你大学毕业过后就没接触过算法数据结构了，但是请你一定告诉我什么是Binary search tree? search的时间复杂度是多少？我很想知道！
+
+##### 高级
+
+1. NSString 如何计算字符的个数？
+2. PKI体系当中加密和签名有什么区别？
+3. 如何自己高效实现NSUserDefault？
+4. 解释下TCP的慢启动特性。
+5. 如何用HTTP实现长连接。
+6. HTTP 2.0 针对同一个域名的多个请求，会建立多少个TCP连接？
+7. 数据库建表的时候索引有什么用？
+8. Full Text Search 为什么快？
+9. iOS 下如何实现指定线程数目的线程池？
+10. 介绍下 iOS 设备获取唯一设备号的历史变迁。
+11. 函数式编程当中的first-class function是什么意思？
+12. 如何使用runtime hook一个class的某个方法，又如何hook某个instance的方法？
+13. 谈下 Objective-C 都有哪些锁机制，你一般用哪个？
+14. 聊下 HTTP post的body体使用 form-urlencoded和multipart/form-data的区别
+15. 让你设计一种机制检测UIViewController的内存泄漏，你会怎么做？
+16. 通过[UIImage imageNamed:]生成的对象什么时候被释放？
+17. applicationWillEnterForeground和applicationDidBecomeActive都会在哪些场景下被调用？举例越多越好。
+18. 如何终止正在运行的工作线程？
+19. 穷举 iOS 下所有的本地持久化方案。
+
+### 代码设计
+
+1. 设计一个图片内存缓存器
+2. 单词翻转
+3. 二叉树广度优先遍历的实现
+4. 对MVC和MVVM的理解
+5. 现有一函数rand100()可以生成0-99的随机数，在这个函数的基础上设计一个可以产生0-9999随机数的函数rand10000()
+6. 统计一个较长字符串(由小写字母构成)中每个字符出现的次数，并打印出出现最多的5个字母和出现的次数。
+
+### 算法题
+
+刷 LeetCode

@@ -52,3 +52,18 @@
 [submodule "CrackingTheCodingInterview"]
 	path = CrackingTheCodingInterview
 	url = https://github.com/careercup/CtCI-6th-Edition.git
+[submodule "bestswifter-blog"]
+	path = bestswifter-blog
+	url = https://github.com/bestswifter/blog.git
+[submodule "ming1016-study-wiki"]
+	path = ming1016-study-wiki
+	url = https://github.com/ming1016/study.wiki.git
+[submodule "objccn-articles"]
+	path = objccn-articles
+	url = https://github.com/objccn/articles.git
+[submodule "nshipster-articles"]
+	path = nshipster-articles
+	url = https://github.com/NSHipster/articles.git
+[submodule "ios-tips"]
+	path = ios-tips
+	url = https://github.com/awesome-tips/iOS-Tips.git
