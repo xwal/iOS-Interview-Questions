@@ -67,3 +67,6 @@
 [submodule "ios-tips"]
 	path = ios-tips
 	url = https://github.com/awesome-tips/iOS-Tips.git
+[submodule "iOS-Performance-Optimization"]
+	path = iOS-Performance-Optimization
+	url = https://github.com/skyming/iOS-Performance-Optimization.git
